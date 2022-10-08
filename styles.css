@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -17,7 +16,6 @@ ol, ul {
   list-style: none;
 }
 
-
 body {
   font-family: 'League Spartan', sans-serif;
   font-family: 'Outfit', sans-serif;
@@ -26,8 +24,24 @@ body {
 header {
   height: 900px;
   background-color: #F8F8F8;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+hr {
+  width: 173px;
+  color: #707070;
+  border-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #BB8B5D;
 }
 
 .header-container {
@@ -58,7 +72,7 @@ header {
   font-weight: 300;
   line-height: 50px;
   margin-bottom: 61px;
-  font-style:normal;
+  font-style: normal;
   padding-right: 120px;
 }
 
@@ -74,7 +88,7 @@ header {
   padding-top: 23px;
 }
 
-.button-text{
+.button-text {
   font-size: 32px;
   color: #FFFFFF;
   text-decoration: none;
@@ -98,5 +112,92 @@ header {
   width: 772px;
   margin-left: 90px;
   margin-top: -45px;
+}
 
+.popular {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 45px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.models {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 81px;
+  margin-bottom: 80px;
+}
+
+.son-wrapper {
+  width: 417px;
+  height: 630px;
+  align-items: center;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 67px;
+}
+
+.son22 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.desc-son22 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 20px;
+  width: 531px;
+  height: 194px;
+  font-style: normal;
+}
+
+.sw12-wrapper {
+  width: 417px;
+  height: 630px;
+  align-items: center;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 67px;
+}
+
+.sw12 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.desc-sw12 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 10px;
+  width: 531px;
+  height: 114px;
+  font-style: normal;
+}
+
+.desc-wrapper {
+  width: 515px;
+  height: 231px;
+}
+
+.prod-desc {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
 }
